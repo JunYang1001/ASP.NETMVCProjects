@@ -134,6 +134,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CourseController.cs" />
+    <Compile Include="Controllers\DepartmentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InstructorController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
@@ -162,6 +163,14 @@
     <Compile Include="Migrations\202001110840371_ComplexDataModel.cs" />
     <Compile Include="Migrations\202001110840371_ComplexDataModel.designer.cs">
       <DependentUpon>202001110840371_ComplexDataModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001130656320_DepartmentSP.cs" />
+    <Compile Include="Migrations\202001130656320_DepartmentSP.designer.cs">
+      <DependentUpon>202001130656320_DepartmentSP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001130719287_RowVersion.cs" />
+    <Compile Include="Migrations\202001130719287_RowVersion.designer.cs">
+      <DependentUpon>202001130719287_RowVersion.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
@@ -227,6 +236,11 @@
     <Content Include="Views\Instructor\Details.cshtml" />
     <Content Include="Views\Instructor\Edit.cshtml" />
     <Content Include="Views\Instructor\Index.cshtml" />
+    <Content Include="Views\Department\Create.cshtml" />
+    <Content Include="Views\Department\Delete.cshtml" />
+    <Content Include="Views\Department\Details.cshtml" />
+    <Content Include="Views\Department\Edit.cshtml" />
+    <Content Include="Views\Department\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -256,6 +270,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202001110840371_ComplexDataModel.resx">
       <DependentUpon>202001110840371_ComplexDataModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001130656320_DepartmentSP.resx">
+      <DependentUpon>202001130656320_DepartmentSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001130719287_RowVersion.resx">
+      <DependentUpon>202001130719287_RowVersion.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
